@@ -1,0 +1,285 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+  
+}
+
+
+.hero-section {
+    /* min-height: 100vh; */
+    /* background-color: F99501; */
+    background-color: #FFC107;
+    /* background-image: url(images/background.png); */
+    background-size: cover;
+    background-repeat: no-repeat;  padding-inline: 17px;
+}
+
+.hero-section img {
+    width: 200px;
+
+}
+
+.my-name {
+    color: rgb(78, 1, 130);
+    font-size: 2.2rem;
+}
+
+.paragraph {
+    font-family: "Salsa", cursive;
+    max-width: 400px;
+    font-size: 2rem;
+    margin-left: 15rem;
+}
+
+/* .paragraph audio {
+    margin-top: 20px;
+} */
+
+.audio-contaier {
+    max-width: 500px;
+    margin-top: 25px;
+    background-color: antiquewhite;
+    border-radius: 45px;
+    display: flex;
+    align-items: center;
+}
+
+audio::-webkit-media-controls-play-button,
+audio::-webkit-media-controls-panel {
+    background-color: antiquewhite;
+}
+
+.text {
+    font-size: 1rem;
+    margin-left: 10px;
+}
+
+.audio-contaier {
+    max-width: max-content;
+}
+
+.audio-contaier img {
+    width: 20px;
+    margin-left: 10px;
+}
+
+.deepak img {
+    width: 390px;
+}
+
+.laxmi-ganesha {
+    padding: 1em;
+    background-color: #FFC107;
+}
+
+.laxmi-g {
+    max-width: 800px;
+    width: 100%;
+    display: block;
+    margin-inline: auto;
+    border-radius: 20px;
+}
+
+
+.horigental-line {
+    height: 2px;
+    width: 468px;
+    background-color: rgb(238, 217, 207);
+}
+
+.circle {
+    height: 10px;
+    width: 10px;
+    border-radius: 100%;
+    background-color: rgb(247, 218, 190);
+    flex-shrink: 0;
+}
+
+.horigental-devide {
+    display: flex;
+    align-items: center;
+    max-width: 800px;
+    height: 15px;
+    margin-inline: auto;
+    margin-bottom: 1em;
+    margin-top: 1rem;
+    gap: 12px;
+}
+
+.laxmi-ganesha h2 {
+    font-family: "Style Script", cursive;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.text-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.little {
+    max-width: 200px;
+    margin-left: -5rem;
+}
+
+
+
+.box {
+    background-color: white;
+    max-width: 400px;
+    padding: 4rem;
+    border-radius: 20px;
+}
+
+.box p {
+    font-size: 2rem;
+    font-family: "Salsa", cursive;
+}
+
+.lastbox {
+
+    display: flex;
+    background-color: white;
+    align-items: center;
+    max-width: 900px;
+    margin-inline: auto;
+    border-radius: 10px;
+    justify-content: center;
+
+
+}
+
+#reciver {
+    font-size: 35px;
+    color: blueviolet;
+}
+
+.lastbox img {
+    max-width: 300px;
+}
+
+.thankstext- {
+
+
+    margin-top: 20px;
+    margin-inline: auto;
+    font-family: "Salsa", cursive;
+
+
+}
+
+.stylish {
+    margin-top: 10px;
+    font-family: "Style Script", cursive;
+    font-size: 45px;
+    margin-left: 45px;
+    font-weight: 400;
+
+}
+
+.thankstext- h4 {
+    margin-left: 25px;
+}
+
+.thankstext- h5 {
+    text-align: end;
+    margin-top: 15px;
+    font-family: "Salsa", cursive;
+
+    color: rgb(56, 25, 86);
+}
+
+
+@media (max-width: 800px) {
+    .deepak1 {
+        display: block;
+        margin-left: auto;
+    }
+
+    .deepak img {
+        width: 360px;
+        margin-right: 20px;
+    }
+
+    .deepak2 {
+        display: none;
+    }
+
+    .paragraph {
+        margin-left: 0px;
+        font-size: 25px;
+    }
+}
+
+
+@media (max-width: 350px) {
+
+    .paragraph {
+        font-size: 20px;
+    }
+
+    .deepak img {
+        width: 160px;
+    }
+
+
+    .little {
+        max-width: 200px;
+        margin-left: -1rem;
+    }
+
+    .box {
+
+        padding: 1.1rem;
+
+    }
+
+
+}
+
+@media (max-width: 500px) {
+    .laxmi-ganesha h2 {
+        font-size: 25px;
+    }
+
+    .box p {
+        font-size: 1rem;
+        font-family: "Salsa", cursive;
+    }
+
+    .box {
+
+        padding: 2rem;
+
+    }
+
+    .little {
+        max-width: 200px;
+
+    }
+
+    .lastbox img {
+        max-width: 120px;
+    }
+
+    .lastbox {
+
+        max-width: 300px;
+
+
+    }
+
+    .stylish {
+
+        font-size: 29px;
+
+
+
+    }
+
+}
