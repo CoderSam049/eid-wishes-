@@ -36,5 +36,15 @@ function copyLink() {
     document.execCommand("copy");
     alert("Link copied: " + copyText.value);
 }
+
+function shareOnWhatsApp() {
+    let link = document.getElementById("shareLink").value;
+    if (link) {
+        let whatsappUrl = `https://wa.me/?text=${encodeURIComponent(link)}`;
+        window.open(whatsappUrl, "_blank");
+    } else {
+        alert("Generate the link first!");
+    }
+}
 let year= document.getElementById("year");
 year.innerHTML=new Date().getFullYear();
