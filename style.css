@@ -18,7 +18,7 @@ body{
     margin: auto;
 }
 
-.hero-section img {
+.hero-section .eid {
     width: 200px;
 
 }
@@ -76,6 +76,13 @@ button:hover {
     font-size: 2rem;
     padding-inline: 5px;
     margin-left: 15rem;
+}
+
+.headimg{
+    max-width: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
@@ -168,7 +175,16 @@ audio::-webkit-media-controls-panel {
     margin-left: -5rem;
 }
 
-
+.cracker{
+    max-width: 400px;
+    height: 200px;
+    margin: auto;
+  
+}
+.cracker-img{
+    width: 60%;
+    border-radius: 20px;
+}
 
 .box {
     background-color: white;
