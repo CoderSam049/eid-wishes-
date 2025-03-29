@@ -9,6 +9,30 @@ document.addEventListener("DOMContentLoaded", function () {
     const receiver = urlParams.get("reciver") || "Friend"; // Default receiver
 
     // Update content dynamically
-    if (receiverName) receiverName.innerText = receiver;
     if (senderName) senderName.innerText = sender;
+    if (receiverName) receiverName.innerText = receiver ? `. ${receiver}` : "";;
+    
 });
+
+function generateUrl() {
+    const sender = document.getElementById("senderInput").value.trim();
+    const receiver = document.getElementById("receiverInput").value.trim();
+
+    if (sender === "" || receiver === "") {
+        alert("Please enter both names!");
+        return;
+    }
+
+    const baseUrl = window.location.origin + window.location.pathname;
+    const shareUrl = `${baseUrl}?sender=${encodeURIComponent(sender)}&reciver=${encodeURIComponent(receiver)}`;
+
+    document.getElementById("shareLink").value = shareUrl;
+    document.getElementById("generatedUrl").style.display = "block";
+}
+
+function copyLink() {
+    const copyText = document.getElementById("shareLink");
+    copyText.select();
+    document.execCommand("copy");
+    alert("Link copied: " + copyText.value);
+}

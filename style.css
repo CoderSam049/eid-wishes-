@@ -4,17 +4,18 @@
     padding: 0;
 }
 body{
-  
+    background-color: #FFC107;
+}
+
+.main{
+    max-width: 1600px;
+    margin: auto;
 }
 
 
 .hero-section {
-    /* min-height: 100vh; */
-    /* background-color: F99501; */
-    background-color: #FFC107;
-    /* background-image: url(images/background.png); */
-    background-size: cover;
-    background-repeat: no-repeat;  padding-inline: 17px;
+    max-width: 800px;
+    margin: auto;
 }
 
 .hero-section img {
@@ -25,6 +26,48 @@ body{
 .my-name {
     color: rgb(78, 1, 130);
     font-size: 2.2rem;
+}
+
+.container {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    max-width: 600px;
+    margin: auto;
+}
+input {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+button {
+    padding: 10px 15px;
+    background: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover {
+    background: #218838;
+}
+#generatedUrl {
+    margin-top: 10px;
+    word-break: break-all;
+    display: none;
+    background: #e8e8e8;
+    padding: 10px;
+    border-radius: 5px;
+}
+#copyBtn {
+    margin-top: 5px;
+    background: #007bff;
+}
+#copyBtn:hover {
+    background: #0056b3;
 }
 
 .paragraph {
@@ -131,7 +174,7 @@ audio::-webkit-media-controls-panel {
 
 .box {
     background-color: white;
-    max-width: 400px;
+    max-width: 900px;
     padding: 4rem;
     border-radius: 20px;
 }
@@ -202,7 +245,7 @@ audio::-webkit-media-controls-panel {
     }
 
     .deepak img {
-        width: 360px;
+        width: 350px;
         margin-right: 20px;
     }
 
@@ -264,7 +307,7 @@ audio::-webkit-media-controls-panel {
     }
 
     .lastbox img {
-        max-width: 120px;
+        max-width: 200px;
     }
 
     .lastbox {

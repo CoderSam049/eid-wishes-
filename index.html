@@ -18,11 +18,12 @@
 </head>
 
 <body>
+    <div class="main">
     <section class="hero-section imagechange">
         <img src="images/eid1.png" alt="" srcset="" />
         <div class="paragraph">
             <p>
-                Hi, <span class="my-name">I am Samir Khan. </span><span id="reciver"> </span> <br />
+                Hi, <span class="my-name">I am <span id="sender"> </span></span>  <span id="reciver"> </span> <br />
                 This Eid, as the moon graces the sky, I've woven love and laughter into a gift just for you, because
                 your happiness means everything to me. Eid Mubarak! 🌙✨
             </p>
@@ -80,9 +81,21 @@
             <div class="horigental-line"></div>
         </div>
         <div class="lastbox">
-            <!-- <div class="img1"><img src="images/ganesh.png" alt="" srcset=""></div>
-            <div class="img2"><img src="images/lakshmi.png" alt="" srcset=""></div> -->
+
             <img src="images/urdu.png" alt="">
+        </div>
+        <br>
+        <div class="container">
+            <h2>🎉 Eid Wishes Generator 🌙</h2>
+            <input type="text" id="senderInput" placeholder="Enter Your Name (Sender)">
+            <input type="text" id="receiverInput" placeholder="Enter Friend's Name (Receiver)">
+            <button onclick="generateUrl()">Generate Link</button>
+
+            <div id="generatedUrl">
+                <p>Your Sharable Link:</p>
+                <input type="text" id="shareLink" readonly>
+                <button id="copyBtn" onclick="copyLink()">Copy Link</button>
+            </div>
         </div>
         <div class="thankstext-">
             <h4>Happy Eid Mubark and, </h3>
@@ -90,13 +103,14 @@
                 <h5>Made with &hearts; Samir khan</h5>
         </div>
 
-
-
-
-
     </section>
-  
 
+
+
+
+
+</div>
 </body>
+
 
 </html>
