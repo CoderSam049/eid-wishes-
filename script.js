@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", function () {
     // Fetch URL parameters
     const urlParams = new URLSearchParams(location.search);
     const sender = urlParams.get("sender") || "SAMIR"; // Default sender
-    const receiver = urlParams.get("reciver") || "Friend"; // Default receiver
+    const receiver = urlParams.get("reciver") || "Friends"; // Default receiver
 
     // Update content dynamically
     if (senderName) senderName.innerText = sender;
@@ -36,3 +36,5 @@ function copyLink() {
     document.execCommand("copy");
     alert("Link copied: " + copyText.value);
 }
+let year= document.getElementById("year");
+year.innerHTML=new Date().getFullYear();

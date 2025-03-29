@@ -74,12 +74,10 @@ button:hover {
     font-family: "Salsa", cursive;
     max-width: 400px;
     font-size: 2rem;
+    padding-inline: 5px;
     margin-left: 15rem;
 }
 
-/* .paragraph audio {
-    margin-top: 20px;
-} */
 
 .audio-contaier {
     max-width: 500px;
@@ -208,7 +206,7 @@ audio::-webkit-media-controls-panel {
 
 .thankstext- {
 
-
+   font-size: 1.8rem;
     margin-top: 20px;
     margin-inline: auto;
     font-family: "Salsa", cursive;
@@ -225,9 +223,7 @@ audio::-webkit-media-controls-panel {
 
 }
 
-.thankstext- h4 {
-    margin-left: 25px;
-}
+
 
 .thankstext- h5 {
     text-align: end;
@@ -257,6 +253,16 @@ audio::-webkit-media-controls-panel {
         margin-left: 0px;
         font-size: 25px;
     }
+    .thankstext- {
+
+        font-size: 0.8rem;
+         margin-top: 20px;
+         margin-inline: auto;
+         font-family: "Salsa", cursive;
+     
+     
+     }
+     
 }
 
 
